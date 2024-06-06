@@ -2261,6 +2261,13 @@
     long "^4.0.0"
     secretjs "^0.17.0"
 
+"@keplr-wallet/types@0.12.98":
+  version "0.12.98"
+  resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.12.98.tgz#bf574a42a8baf12fded1f2d8a54a5b6680a259a4"
+  integrity sha512-585+fJQ91mIOUmZKduqDutX0OHgX0EyjTF+AWhAiynFiUvJrcAtVVXM/FWC5/iAXC+R2g+ZtDFUAdESEjG0ArA==
+  dependencies:
+    long "^4.0.0"
+
 "@keplr-wallet/types@^0.12.67":
   version "0.12.67"
   resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.12.67.tgz#4ca57ad467078a28fbcdd05b052898e46be37562"
@@ -2274,6 +2281,15 @@
   integrity sha512-8wDLpBUc/yQ6pWJOotk8V4OlxjPqU8V1OJgzYSQDF4FD9/BjRGifXY1LkYp2QhaJ7c6vKhw8v773SgmBq5w5vg==
   dependencies:
     "@keplr-wallet/types" "0.10.24"
+    big-integer "^1.6.48"
+    utility-types "^3.10.0"
+
+"@keplr-wallet/unit@^0.12.89":
+  version "0.12.98"
+  resolved "https://registry.yarnpkg.com/@keplr-wallet/unit/-/unit-0.12.98.tgz#94935e53fc50da478dff22c6e2662ac1b19cbcdb"
+  integrity sha512-uyThEJFMTdFKnajgtVSmNI3nhKJhHHbxsf/dN+HRd14BENd+raR82nSo6Y4nuZKguhQrDZYBZ0/m9TmtlTjbyA==
+  dependencies:
+    "@keplr-wallet/types" "0.12.98"
     big-integer "^1.6.48"
     utility-types "^3.10.0"
 
