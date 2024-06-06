@@ -106,7 +106,7 @@
     "uuid": "^8.3.2",
     "web3": "^1.7.3",
     "web3-eth-contract": "^1.7.3",
-    "web3-utils": "^1.7.3"
+    "web3-utils": "^4.2.3"
   },
   "devDependencies": {
     "@keplr-wallet/types": "^0.12.67",
