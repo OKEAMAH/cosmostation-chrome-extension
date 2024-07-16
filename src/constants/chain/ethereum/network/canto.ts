@@ -1,4 +1,5 @@
-import cantoChainImg from '~/images/chainImgs/canto.png';
+import { MINTSCAN_URL } from '~/constants/cosmos';
+import cantoEVMChainImg from '~/images/chainImgs/canto_evm.png';
 import cantoTokenImg from '~/images/symbols/canto.png';
 import type { EthereumNetwork } from '~/types/chain';
 
@@ -8,9 +9,9 @@ export const CANTO: EthereumNetwork = {
   networkName: 'CANTO',
   rpcURL: 'https://rpc-canto-evm.cosmostation.io',
   tokenImageURL: cantoTokenImg,
-  imageURL: cantoChainImg,
+  imageURL: cantoEVMChainImg,
   displayDenom: 'CANTO',
   decimals: 18,
-  explorerURL: 'https://mintscan.io/canto',
+  explorerURL: `${MINTSCAN_URL}/canto`,
   coinGeckoId: 'canto',
 };
